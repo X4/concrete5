@@ -50,6 +50,16 @@ $uh = Loader::helper('concrete/urls');
 			<div class="fieldValues">
 			 <input name="recipientEmail" value="<?php echo $miniSurveyInfo['recipientEmail']?>" type="text" size="20" maxlength="128" />
 			<div class="ccm-note"><?= t('(Seperate multiple emails with a comma)')?></div>
+            </div>
+            <div class="fieldLabel"><?php echo t('Reply to Email')?>:</div>
+			<div class="fieldValues">
+			 <input name="replyToEmail" value="<?php echo $miniSurveyInfo['replyToEmail']?>" type="text" size="20" maxlength="128" />
+			<div class="ccm-note"><?= t('(Enter the E-Mail address people can reply to.)')?></div>
+			</div>
+        	<div class="fieldLabel"><?php echo t('Reply to Name')?>:</div>
+			<div class="fieldValues">
+			 <input name="replyToName" value="<?php echo $miniSurveyInfo['replyToName']?>" type="text" size="20" maxlength="128" />
+			<div class="ccm-note"><?= t('(Optionally enter a name for the reply to address.)')?></div>
 			</div>
 			<div class="ccm-spacer"></div>
 		</div>

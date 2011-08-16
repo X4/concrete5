@@ -23,7 +23,11 @@
 			<default value="0" />
 		</field>
 		<field name="recipientEmail" type="C" size="255">
-		</field>		
+        </field>
+        <field name="replyToEmail" type="C" size="255">
+        </field>
+        <field name="replyToName" type="C" size="255">
+		</field>
 		<field name="displayCaptcha" type="i">
 			<default value="1"/>
 		</field>
